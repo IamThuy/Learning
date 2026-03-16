@@ -5,7 +5,7 @@ import os
 import shutil
 
 # ip padrãp
-IP = "video-online.gl.at.ply.gg"
+IP = ""
 PORT = 16621
 
 def connect(ip, porta):
