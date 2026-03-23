@@ -33,6 +33,8 @@ def cmd(c, data):
     try:  
         # Se o comando for "CD" ele vai ir para o diretorio que começa apartir
         # Do terceiro caractere
+        # .strip() é para remover espaços no começo e no fim
+    
         if data.startswith("cd "):
             os.chdir(data[3:].strip())
             return
