@@ -24,7 +24,7 @@ int main()
         printf("Digite a palavra que você quer tentar: ");
         fgets(tentativas, 50, stdin);
         
-
+        // strcspn serve pra procurar um caractere em uma string
         // pega a posição do "\n" e coloca como 0 (final da string)
         tentativas[strcspn(tentativas, "\n")] = 0;
 
